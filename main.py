@@ -176,7 +176,7 @@ class App:
         ### 'REFRESH' button ######################################
         ###########################################################
 
-        image_refresh_ = Image.open('./assets/refresh.png').resize((55, 55), Image.ANTIALIAS)
+        image_refresh_ = Image.open('./assets/refresh.png').resize((55, 55), Image.LANCZOS)
         image_refresh = ImageTk.PhotoImage(image_refresh_)
 
         self.refresh_button = tk.Button(self.side_bar_label, height=1, width=1, bg=_from_rgb((100, 100, 100)),
