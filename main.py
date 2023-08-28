@@ -205,9 +205,9 @@ class App:
 
         self.training_data_instructions_label = tk.Label(self.main_section_label,
                                                          text='At least 20 images, like this:\n'
-                                                              '     2 to 3 full body\n'
-                                                              '     3 to 5 upper body\n'
-                                                              '     5 to 12 close-up on face\n'
+                                                              '     2–3 full body\n'
+                                                              '     3–5 upper body\n'
+                                                              '     5–12 close-up on face\n'
                                                               'Zip the images into a zip file.',
                                                          font=("Arial", 18),
                                                          justify='left',
