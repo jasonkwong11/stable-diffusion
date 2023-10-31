@@ -105,7 +105,7 @@ while True:
             # MAX STEPS
             # How many steps do you want to train for?
             # max_training_steps = int(nmr_images * number_steps_per_image)
-            max_training_steps = 3000
+            max_training_steps = 2000
 
             # Match class_word to the category of the regularization images you chose above.
             class_word = "man"  # typical uses are "man", "person", "woman"
