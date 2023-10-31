@@ -63,7 +63,7 @@ while True:
             out_imgs_s3_folder = message['out_img_dir']
             prompt = message['prompt']
 
-            prompt = prompt.replace('@me', 'sksxvs2 man')
+            prompt = prompt.replace('@me', 'sksxvs2 woman')
 
             model_path = './trained_models/' + model_path.split('/')[-1]
 
@@ -108,7 +108,7 @@ while True:
             max_training_steps = 2000
 
             # Match class_word to the category of the regularization images you chose above.
-            class_word = "man"  # typical uses are "man", "person", "woman"
+            class_word = "woman"  # typical uses are "man", "person", "woman"
 
             # If you are training a person's face, set this to True
             i_am_training_a_persons_face = True
