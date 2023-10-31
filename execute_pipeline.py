@@ -63,7 +63,7 @@ while True:
             out_imgs_s3_folder = message['out_img_dir']
             prompt = message['prompt']
 
-            prompt = prompt.replace('@me', 'Chris Evans man')
+            prompt = prompt.replace('@me', 'jasonkwong person')
 
             model_path = './trained_models/' + model_path.split('/')[-1]
 
@@ -108,7 +108,7 @@ while True:
             max_training_steps = 2000
 
             # Match class_word to the category of the regularization images you chose above.
-            class_word = "man"  # typical uses are "man", "person", "woman"
+            class_word = "person"  # typical uses are "man", "person", "woman"
 
             # If you are training a person's face, set this to True
             i_am_training_a_persons_face = True
@@ -116,7 +116,7 @@ while True:
             flip_p_arg = 0.0 if i_am_training_a_persons_face else 0.5
 
             # This is the unique token you are incorporating into the stable diffusion model.
-            token = "Chris Evans man"
+            token = "jasonkwong person"
 
             # 0 Saves the checkpoint when max_training_steps is reached.
             # 250 saves the checkpoint every 250 steps as well as when max_training_steps is reached.
