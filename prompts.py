@@ -11,19 +11,15 @@ DEFAULT_PROMPTS = {
                 'fantasy concept art, artstation trending, highly detailed, beautiful landscape in the '
                 'background, art by wlop, greg rutkowski, thierry doizon, charlie bowater, '
                 'alphonse mucha, golden hour lighting, ultra realistic.',
-        'xenomorph': ' cinematic still of @me with glasses as rugged warrior, threatening xenomorph, alien movie (1986),ultrarealisticGuidance scale: 12Steps: 130Strength: .95',
-        'astronaut': 'photo of @me astronaut, astronaut, glasses, helmet in alien world abstract oil painting, greg rutkowski, detailed faceGuidance scale: 11.5Steps: 50Strength: 0.9',
+        'xenomorph': ' cinematic still of @me as rugged warrior, threatening xenomorph, alien movie (1986),ultrarealisticGuidance scale: 12Steps: 130Strength: .95',
+        'astronaut': 'photo of @me astronaut, astronaut, helmet in alien world abstract oil painting, greg rutkowski, detailed faceGuidance scale: 11.5Steps: 50Strength: 0.9',
         'pencil': 'pencil sketch of @me, @me man, inpired by greg rutkowski, digital art by artgemGuidance scale: 6Steps: 33Strength: 0.92',
-        'impressionist': 'impressionist painting of ((@me)) by Daniel F Gerhartz, ((@me man with glasses painted in an impressionist style)), nature, treesGuidance scale: 11Steps: 130Strength: 0.98',
-        'hulk': 'portrait of @me man with glasses as hulk, handsome, elegant, intricate luminescent cyberpunk background, headshot, highly detailed, digital paintingGuidance scale: 8Steps: 153Strength: 0.9',
+        'impressionist': 'impressionist painting of ((@me)) by Daniel F Gerhartz, ((@me man painted in an impressionist style)), nature, treesGuidance scale: 11Steps: 130Strength: 0.98',
+        'hulk': 'portrait of @me man as hulk, handsome, elegant, intricate luminescent cyberpunk background, headshot, highly detailed, digital paintingGuidance scale: 8Steps: 153Strength: 0.9',
         'Elf': 'Closeup portrait of @me as an elf with long blond hair, fantasy concept art, intricate '
                 'details, detailed armor, majestic background, art by wlop, Greg Rutkowski, digital '
                 'painting, smooth lighting, looking towards the viewer.',
-        # 'Soccer': 'closeup portrait of @me as a soccer player @me wearing a xred and white uniform, '
-        #         'action shot, grassy field in the background, bright sunlight, motion blur, dramatic '
-        #         'lighting, intense facial expression, art by ross tran, charlie bowater, ignacio '
-        #         'fernandez rios, kai carpenter, leesha hannigan, thierry doizon.',
-        'spiderman': 'photo of @me as serious spiderman with glasses, ultrarealistic, leica 30mmGuidance scale: 12Steps: 100Strength: 0.95',
+        'spiderman': 'photo of @me as serious unmasked spiderman, ultrarealistic, leica 30mmGuidance scale: 12Steps: 100Strength: 0.95',
         'Jedi': 'closeup portrait of @me as a jedi with a lightsaber, highly detailed, science fiction, '
                 'star wars concept art, intricate details, bright colors, golden hour, art by marko '
                 'djurdjevic, greg rutkowski, wlop, fredperry, digital painting, rossdraws.',
@@ -31,10 +27,10 @@ DEFAULT_PROMPTS = {
                 'intricate details and textures, magical, colorful, art by wlop, greg rutkowski, '
                 'charlie bowater, magali villeneuve, alphonse mucha, surreal, @me looking into the '
                 'distance, holding a staff, fire and stars in the background.',
-        # 'Cyberpunk': 'closeup portrait of @me as a cyberpunk, dark and gritty, highly detailed, '
-        #         'retro-futuristic style, neon lighting, cyberpunk city in the background, art by '
-        #         'wlop, greg rutkowski, and charlie bowater, 8 k resolution, ultra-realistic, '
-        #         'octane render, unreal engine.',
+        'Cyberpunk': 'closeup portrait of @me as a cyberpunk, dark and gritty, highly detailed, '
+                'retro-futuristic style, neon lighting, cyberpunk city in the background, art by '
+                'wlop, greg rutkowski, and charlie bowater, 8 k resolution, ultra-realistic, '
+                'octane render, unreal engine.',
         'Astronaut': 'closeup portrait of @me as an astronaut, futuristic, highly detailed, ultra '
                 'realistic, concept art, intricate textures, interstellar background, space travel, '
                 'art by alphonse mucha, ryan kittleson, greg rutkowski, leesha hannigan, stephan '
@@ -43,36 +39,33 @@ DEFAULT_PROMPTS = {
                 'wearing a black and red armor, ready to fight, detailed textures, concept art, noir '
                 'art, art by hinata matsumura, alphonse mucha, mike mignola, kazu kibuishi, and '
                 'rev.matsuoka, digital painting, ultra-realistic.',
-        # 'Ninja': 'closeup portrait of @me as a ninja, wearing a black hood and suit, stealthy movements, '
-        #         'dark night background, shadows and mist, detailed and realistic, art by kazuya '
-        #         'yamashita, yuya kanzaki, yang zhizhuo, digital painting, photorealism, 8k resolution.',
-        # 'Pirate': 'closeup portrait of @me as a pirate, wild and crazy, bandana, eye patch, golden hoop '
-        #         'earrings, tattered and ripped clothes, detailed tattoos, rough and rugged, art by '
-        #         'alphonse mucha, kai carpenter, ignacio fernandez rios, charlie bowater, noir '
-        #         'photorealism, ultra real.',
-        # 'Superhero': 'closeup portrait of @me as a superhero, dynamic lighting, intense colors, '
-        #         'detailed costume, artstation trending, art by alphonse mucha, greg rutkowski, '
-        #         'ross tran, leesha hannigan, ignacio fernandez rios, kai carpenter, noir '
-        #         'photorealism, film',
+        'Pirate': 'closeup portrait of @me as a pirate, wild and crazy, bandana, eye patch, golden hoop '
+                'earrings, tattered and ripped clothes, detailed tattoos, rough and rugged, art by '
+                'alphonse mucha, kai carpenter, ignacio fernandez rios, charlie bowater, noir '
+                'photorealism, ultra real.',
+        'Superhero': 'closeup portrait of @me as a superhero, dynamic lighting, intense colors, '
+                'detailed costume, artstation trending, art by alphonse mucha, greg rutkowski, '
+                'ross tran, leesha hannigan, ignacio fernandez rios, kai carpenter, noir '
+                'photorealism, film',
         'Knight': 'closeup portrait of @me as a knight wearing a full suit of armor, intricate details, '
                 'majestic and powerful, bright shining silver armor, matching blue cape, a golden crown, '
                 'artstation trending, highly detailed, digital painting, art by wlop, greg rutkowski, '
                 'and charlie bowater.',
-        # 'Cyborg': 'closeup portrait of @me as a cyborg, mechanical parts, ultra realistic, concept art, '
-        #         'intricate details, eerie, highly detailed, photorealistic, 8k, unreal engine. art by '
-        #         'artgerm and greg rutkowski and charlie bowater and magali villeneuve and alphonse mucha, '
-        #         'golden hour, cyberpunk, robotic, steampunk, neon colors, metallic textures.',
-        # 'Monster': 'closeup portrait of @me as monster with glowing eyes and sharp teeth, dark shadows, '
-        #         'foggy background, highly detailed, photorealism, concept art, digital painting, art '
-        #         'by yahoo kim, max grecke, james white, fabrizio bortolussi.',
-        # 'Vampire': 'closeup portrait of @me as a vampire, pale skin, dark eyes, sharp fangs, detailed '
-        #         'shadows and highlights, eerie atmosphere, mystical and magical, art by leesha hannigan, '
-        #         'thierry doizon, alphonse mucha, kai carpenter, noir photorealism, surreal and '
-        #         'dreamlike, deep red hues.',
-        # 'Zombie': 'closeup portrait of @me as a zombie, decaying skin and clothing, dark and eerie, highly '
-        #         'detailed, photorealistic, 8k, ultra realistic, horror style, art by greg rutkowski, '
-        #         'charlie bowater, and magali villeneuve.',
-        # 'Witch': 'closeup portrait of @me as a witch surrounded by magical elements, highly detailed, '
-        #         'photorealism, digital painting, dark colors, grayscale, intricate details, art by yuumei, '
-        #         'greg rutkowski, eddie hong, and charlie bowater, ultra realism, magical elements.'
+        'Cyborg': 'closeup portrait of @me as a cyborg, mechanical parts, ultra realistic, concept art, '
+                'intricate details, eerie, highly detailed, photorealistic, 8k, unreal engine. art by '
+                'artgerm and greg rutkowski and charlie bowater and magali villeneuve and alphonse mucha, '
+                'golden hour, cyberpunk, robotic, steampunk, neon colors, metallic textures.',
+        'Monster': 'closeup portrait of @me as monster with glowing eyes and sharp teeth, dark shadows, '
+                'foggy background, highly detailed, photorealism, concept art, digital painting, art '
+                'by yahoo kim, max grecke, james white, fabrizio bortolussi.',
+        'Vampire': 'closeup portrait of @me as a vampire, pale skin, dark eyes, sharp fangs, detailed '
+                'shadows and highlights, eerie atmosphere, mystical and magical, art by leesha hannigan, '
+                'thierry doizon, alphonse mucha, kai carpenter, noir photorealism, surreal and '
+                'dreamlike, deep red hues.',
+        'Zombie': 'closeup portrait of @me as a zombie, decaying skin and clothing, dark and eerie, highly '
+                'detailed, photorealistic, 8k, ultra realistic, horror style, art by greg rutkowski, '
+                'charlie bowater, and magali villeneuve.',
+        'Witch': 'closeup portrait of @me as a witch surrounded by magical elements, highly detailed, '
+                'photorealism, digital painting, dark colors, grayscale, intricate details, art by yuumei, '
+                'greg rutkowski, eddie hong, and charlie bowater, ultra realism, magical elements.'
 }
